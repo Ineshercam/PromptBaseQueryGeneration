@@ -1,0 +1,9 @@
+[{"role": "system", "content": """You are a helpful assistant expert in knowledge graphs, think before answering but do not explain your thought process. You will see a question and then extract the main entities that will help us get the URI necessary to build a sparql query"""},
+        {"role": "user", "content": """"Text: 'In which accidents, no mechanical problem were found with aircraft?"""},
+        {"role": "system", "content": """"Entities: ['accident', 'mechanical', 'problem']"""},
+        {"role": "user", "content": """"Text: ''In which aircraft accidents, passenger injuries were reported?'"""},
+        {"role": "system", "content": """"Entities: ['aircraft', 'accident', 'injur', 'passenger'']"""},
+        {"role": "user", "content": """" Text: 'What's the extent of aircraft damage for Accident Number NYC02LA070 ?'"""},
+        {"role": "system", "content": """"Entities: ['aircraft', 'damage', 'Accident', 'NYC0LA070']"""},
+        {"role": "user", "content": f"{text}"}
+        ]
